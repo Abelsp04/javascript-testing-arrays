@@ -5,11 +5,12 @@ var newPeople=[];
 // newPeople.toLowerCase()
 // newPeople.toLowerCase
 var name='wally';
+var example='aaliyah';
 for (var i=0;i<people.length;i++){
-     newPeople[i]=people[i].toLowerCase();}
+     newPeople[i]=people[i].toLowerCase();
 
-    if(newPeople[i]="wally"){
+    if(newPeople[i]===name){
         console.log(i)
-    }
+    }}
     
     
